@@ -6,12 +6,60 @@
   box-sizing: border-box;
 }
 
+html:hover{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* 
-  CSS Shoes 
+  CSS Header 
+*/
+
+/* CSS Menù */
+
+#menu{
+  position: fixed;
+  z-index: 999;
+  margin-top: 20px;
+  float: left;
+  right: 0;
+}
+
+nav ul li{
+  background-color: white;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+}
+
+nav ul li a:hover{
+  color: white;
+}
+
+nav ul li:hover{
+  background-color: lightgrey;
+}
+
+nav ul li:active{
+  background-color: darkgrey;
+  margin-top: 5px;
+}
+/* 
+/CSS Header
+*/
+
+/* 
+  CSS Main 
 */
 
 section{
@@ -58,5 +106,5 @@ section{
 }
 
 /* 
-  /CSS Shoes 
+  /CSS Main
 */
