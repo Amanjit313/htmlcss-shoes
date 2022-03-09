@@ -30,15 +30,16 @@ body{
 
 nav ul li{
   background-color: white;
-  display: inline-block;
+  float: left;
   padding: 10px 15px;
   border-radius: 50%;
   margin-right: 15px;
+  list-style: none;
 }
 
 nav ul li a{
   text-decoration: none;
-  display: inline-block;
+  float: left;
   color: black;
 }
 
@@ -47,11 +48,11 @@ nav ul li a:hover{
 }
 
 nav ul li:hover{
-  background-color: lightgrey;
+  background-color: lightgray;
 }
 
 nav ul li:active{
-  background-color: darkgrey;
+  background-color: grey;
   margin-top: 5px;
 }
 /* 
