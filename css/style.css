@@ -74,11 +74,15 @@ section{
   left: 50%;
   transform: translate( -50%, -50%);
   text-align: center;
-  font-size: 50px;
+}
+
+.shoes-box img{
+  width: 100%;
 }
 
 .text{
   text-transform: uppercase;
+  font-size: 4vw;
 }
 
 .y-t{
